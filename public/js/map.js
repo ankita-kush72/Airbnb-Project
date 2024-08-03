@@ -16,6 +16,3 @@ const marker = new mapboxgl.Marker({color: 'red'})
     )
     .addTo(map);
 
-// const marker = new mapboxgl.Marker({color: "red"})
-//     .setLanLat(coordinates)
-//     .addTo(map);

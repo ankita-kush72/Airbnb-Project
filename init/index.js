@@ -10,7 +10,8 @@ main()
     });
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/wanderlust');
+    await mongoose.connect('mongodb://root:example@mongodb:27017/wanderlust?authSource=admin');
+
 }  
 
 const initDB = async () => {
